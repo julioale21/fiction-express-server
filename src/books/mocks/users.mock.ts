@@ -31,4 +31,14 @@ export const mockUsers: User[] = [
     isActive: true,
     roles: ['user'],
   },
+  {
+    id: '4',
+    name: 'Julio',
+    surname: 'Romero',
+    dni: 12345678,
+    email: 'julio@gmail.com',
+    password: '12345678',
+    isActive: true,
+    roles: ['user'],
+  },
 ];
