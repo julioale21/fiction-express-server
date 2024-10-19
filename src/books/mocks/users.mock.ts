@@ -37,7 +37,7 @@ export const mockUsers: User[] = [
     surname: 'Romero',
     dni: 12345678,
     email: 'julio@gmail.com',
-    password: '12345678',
+    password: 'fictionexpress',
     isActive: true,
     roles: ['user'],
   },
