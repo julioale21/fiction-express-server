@@ -49,7 +49,7 @@ Para este test, NestJS nos permite demostrar rápidamente buenas prácticas de d
 
 ### Documentación con Swagger
 
-Se ha implementado una documentación básica utilizando Swagger, accesible en la ruta `/api/docs` cuando se ejecuta en modo de desarrollo. Esto proporciona una interfaz interactiva para explorar y probar los endpoints de la API.
+Se ha implementado una documentación básica utilizando Swagger, accesible en la ruta `/api/v1` cuando se ejecuta en modo de desarrollo. Esto proporciona una interfaz interactiva para explorar y probar los endpoints de la API.
 
 ## Estructura del Proyecto
 
@@ -106,7 +106,7 @@ src/
    ```
 
 6. La API estará disponible en `http://localhost:3002/api/v1`
-7. Accede a la documentación Swagger en `http://localhost:3002/api/docs`
+7. Accede a la documentación Swagger en `http://localhost:3002/api/v1`
 
 ## Endpoints Principales
 
