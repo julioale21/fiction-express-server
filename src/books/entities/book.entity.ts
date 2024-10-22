@@ -8,6 +8,7 @@ export class Book {
     uniqueItems: true,
   })
   id: number;
+
   @ApiProperty({
     example: 'Viaje al Centers de la Tierra',
     description: 'The title of the book',

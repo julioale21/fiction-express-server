@@ -12,16 +12,13 @@ export class BooksService {
     });
   }
 
-  findOne(id: number): Promise<Book> {
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        const book = books.find((book) => book.id === id);
+  findOne(id: number): Book {
+    const book = books.find((book) => book.id === id);
 
-        if (!book) {
-          throw new NotFoundException();
-        }
-        resolve(book);
-      }, 1000);
-    });
+    if (!book) {
+      throw new NotFoundException();
+    }
+
+    return book;
   }
 }
